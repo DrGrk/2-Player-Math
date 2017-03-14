@@ -13,6 +13,8 @@
 		76FA3E541E77314400CE256B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FA3E521E77314400CE256B /* Main.storyboard */; };
 		76FA3E561E77314400CE256B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FA3E551E77314400CE256B /* Assets.xcassets */; };
 		76FA3E591E77314400CE256B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FA3E571E77314400CE256B /* LaunchScreen.storyboard */; };
+		76FA3E651E7731E500CE256B /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA3E641E7731E500CE256B /* QuestionModel.m */; };
+		76FA3E681E77342200CE256B /* PlayersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA3E671E77342200CE256B /* PlayersModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		76FA3E551E77314400CE256B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76FA3E581E77314400CE256B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FA3E5A1E77314400CE256B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FA3E631E7731E500CE256B /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		76FA3E641E7731E500CE256B /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+		76FA3E661E77342200CE256B /* PlayersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersModel.h; sourceTree = "<group>"; };
+		76FA3E671E77342200CE256B /* PlayersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				76FA3E4C1E77314400CE256B /* AppDelegate.h */,
 				76FA3E4D1E77314400CE256B /* AppDelegate.m */,
+				76FA3E631E7731E500CE256B /* QuestionModel.h */,
+				76FA3E641E7731E500CE256B /* QuestionModel.m */,
+				76FA3E661E77342200CE256B /* PlayersModel.h */,
+				76FA3E671E77342200CE256B /* PlayersModel.m */,
 				76FA3E4F1E77314400CE256B /* ViewController.h */,
 				76FA3E501E77314400CE256B /* ViewController.m */,
 				76FA3E521E77314400CE256B /* Main.storyboard */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FA3E651E7731E500CE256B /* QuestionModel.m in Sources */,
 				76FA3E511E77314400CE256B /* ViewController.m in Sources */,
 				76FA3E4E1E77314400CE256B /* AppDelegate.m in Sources */,
 				76FA3E4B1E77314400CE256B /* main.m in Sources */,
+				76FA3E681E77342200CE256B /* PlayersModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,7 @@
 				76FA3E5F1E77314400CE256B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
